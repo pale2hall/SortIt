@@ -1,0 +1,10 @@
+name: SortIt
+main: com.palecraft.sortit.SortIt
+version: 1.0
+api-version: 1.13
+softdepend: [ChestSort]
+commands:
+   sortit:
+      description: Get ready to sort some chests
+      usage: /<command>
+      permission: sortit.sort
